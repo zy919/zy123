@@ -17,3 +17,5 @@ class Test_allure:
     def test_al(self, a):
         allure.attach('描述', '我是测试步骤001的描述～～～')
         assert a != 2
+    def test_02(self):
+        print("我是小猪猪")
